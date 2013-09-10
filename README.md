@@ -13,7 +13,7 @@ pip install beautifulsoup4
 Authenticate, then go to the week you want to parse. Make sure that you are in
 weekly view. Save the source of the page. Then, run
 ```
-python hwparser.py /path/to/source.html
+python hwparser.py /path/to/source.html out.txt
 ```
-A file called `out.txt` will be written in the same directory with the date each
-assignment is due, the class, and the details of the assignment.
+A file called `out.txt` will be written with the date each assignment is due,
+the class, and the details of the assignment.
